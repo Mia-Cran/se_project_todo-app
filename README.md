@@ -1,6 +1,6 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This To-Do app makes it easy for the user to add in tasks that they may need help on to get finished. This app allows for the the user to put in a new task that needs to be done as well as the date that it needs to get done by. Once the task is completed, the checkbox can be marked. Once the tasks are finished and checked off, they can be deleted.
 
 ## Functionality
 
