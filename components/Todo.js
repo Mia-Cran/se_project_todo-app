@@ -26,7 +26,6 @@ class Todo {
       .cloneNode(true);
 
     const todoNameEl = this._todoElement.querySelector(".todo__name");
-    const todoCheckboxEl = this._todoElement.querySelector(".todo__completed");
     const todoDate = this._todoElement.querySelector(".todo__date");
     this._todoDeleteBtn = this._todoElement.querySelector(".todo__delete-btn");
 
