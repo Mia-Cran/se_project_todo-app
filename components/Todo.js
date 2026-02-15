@@ -8,11 +8,11 @@ class Todo {
   }
   _setEventListener() {
     this._todoCheckboxEl.addEventListener("change", () => {
-      this._completed = !this._completed;
+      this._completed = this._todoCheckboxEl.checked;
     });
     this._todoDeleteBtn.addEventListener("click", () => {
       this._todoElement.remove();
-      this._todoElement.null();
+      this._todoElement = null;
     });
   }
 
@@ -46,12 +46,6 @@ class Todo {
     this._setEventListener();
 
     return this._todoElement;
-  }
-  _generateCheckboxEl() {
-    const checkboxEl = document.createElement("input");
-    checkboxEl.type = "checkbox";
-    checkboxEl.checked = this.completed;
-    return checkboxEl;
   }
 }
 
