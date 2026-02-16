@@ -43,6 +43,7 @@ addTodoForm.addEventListener("submit", (evt) => {
   const id = uuidv4();
   const values = { name, date, id, completed: false };
   addTodoList(values);
+  addTodoForm.reset();
   newTodoValidator.resetValidation();
   closeModal(addTodoPopup);
 });
