@@ -55,12 +55,6 @@ class FormValidator {
     errorElement.textContent = "";
   }
 
-  _hasInvalidInput(inputList) {
-    return this._inputList.some((inputElement) => {
-      return !inputElement.validity.valid;
-    });
-  }
-
   _toggleButtonState() {
     if (this._hasInvalidInput()) {
       this._buttonElement.classList.add(this._inactiveButtonClass);
