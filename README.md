@@ -1,6 +1,6 @@
 # Simple Todo App
 
-This To-Do app makes it easy for the user to add in tasks that they may need help on to get finished. This app allows for the the user to put in a new task that needs to be done as well as the date that it needs to get done by. Once the task is completed, the checkbox can be marked. Once the tasks are finished and checked off, they can be deleted.
+This To-Do app makes it easy for the user to keep track of their daily/monthly tasks. It provides the number of tasks that the user inputs as well as how many gets completed vs. how many are left. The app has a form where the user can add the name of the task whether it be one word or a phrase and the date that it needs to be done. As each task gets completed, the app allows the user to click the box next to the task and it adds a checkmark. The user can also delete the task completed and the new total number of tasks as well as how many are left will reflect above the to-do list. If the user is technology friendly, this app will come in handy, is simple to use, and help keeps track of daily and monthly tasks. If there are 5 tasks and 1 task gets completed, it will show 1 out of 5 tasks completed. If the user deletes a task, it will change to: 1 out of 4 tasks completed.
 
 ## Functionality
 
