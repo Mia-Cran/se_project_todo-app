@@ -57,7 +57,8 @@ class Todo {
     return this._todoElement;
   }
   _getTemplate() {
-    return document.querySelector("#todo-template").content.cloneNode(true);
+    return document.querySelector("#todo-template").content.cloneNode(true)
+      .firstElementChild;
   }
   getName() {
     let name = this._name;
