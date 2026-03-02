@@ -54,6 +54,9 @@ class FormValidator {
     errorElement.classList.remove(this._errorClass);
     errorElement.textContent = "";
   }
+  _hasInvalidInput() {
+    return this._inputList.some((inputElement) => !inputElement.validity.valid);
+  }
 
   _toggleButtonState() {
     if (this._hasInvalidInput()) {
@@ -65,6 +68,7 @@ class FormValidator {
     }
   }
   resetValidation() {
+    this._formEl.reset();
     this._inputList.forEach((inputElement) => {
       this._hideInputError(inputElement);
     });

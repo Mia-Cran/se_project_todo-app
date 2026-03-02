@@ -43,7 +43,6 @@ const addTodoPopup = new PopupWithForm({
     const values = { name, date, id, completed: false };
     section.addItem(generateTodo(values));
     todoCounter.updateTotal(true);
-    addTodoForm.reset();
     newTodoValidator.resetValidation();
     addTodoPopup.close();
   },
